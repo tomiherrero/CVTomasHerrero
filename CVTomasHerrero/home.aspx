@@ -8,6 +8,6 @@
     <title></title>
 </head>
 <body>
-    Hola mundo 
+    Hola mundo
 </body>
 </html>
