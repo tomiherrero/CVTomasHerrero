@@ -2,10 +2,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h1 class="display-4">Curriculum Vitae</h1>
-        <p class="lead">Presentación de Tomas Agustin Herrero</p>
-    </div>
-    </div>
+<div class="jumbotron">
+    <h1 class="display-4">Curriculum Vitae</h1>
+    <p class="lead">Presentacion de Tomas Agustin Herrero</p>
+    <hr class="my-4">
+    <a class="btn btn-primary btn-lg" href="presentation.aspx" role="button">Ver CV</a>
+</div>
 </asp:Content>
