@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="index.Master.cs" Inherits="CVTomasHerrero.home" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <nav class="nav  ">
+        <a class="nav-link" href="home.aspx">Inicio</a>
+        <a class="nav-link" href="presentation.aspx">Presentación</a>
+        <a class="nav-link" href="personalInformation.aspx">Datos Personales</a>
+        <a class="nav-link" href="academicTraining.aspx">Formación Académica</a>
+        <a class="nav-link" href="workExperience.aspx">Experiencia Laboral</a>
+        <a class="nav-link" href="knowledge.aspx">Conocimientos</a>
+        <a class="nav-link" href="objectives.aspx">Objetivos</a>
+    </nav>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+<script src ="js/bootstrap.min.js"></script>
+</html>

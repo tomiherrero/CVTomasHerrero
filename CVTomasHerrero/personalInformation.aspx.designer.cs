@@ -11,7 +11,7 @@ namespace CVTomasHerrero
 {
 
 
-    public partial class home1
+    public partial class personalInformation
     {
     }
 }
